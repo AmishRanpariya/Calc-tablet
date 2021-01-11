@@ -17,6 +17,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+
 }
 
 .container {
@@ -58,9 +60,9 @@ body {
   box-shadow: 1.6rem 1.6rem 2rem #0004,
     inset -1.6rem -1.6rem 2rem #0002,
     inset 1.6rem 1.6rem 2rem #fff;
-    
-    
-    /* to make text of button unselectable */
+
+
+  /* to make text of button unselectable */
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -116,12 +118,12 @@ body {
 
   html,
   body {
-    font-size: 1.5vmin;
+    font-size: 1.2vmin;
   }
 
   .main-grid {
-    grid-template-columns: repeat(4, 10.8vmin);
-    grid-template-rows: minmax(21.6vmin, auto) repeat(5, 10.8vmin);
+    grid-template-columns: repeat(4, 8.8vmin);
+    grid-template-rows: minmax(18vmin, auto) repeat(5, 8.8vmin);
   }
 
 }
