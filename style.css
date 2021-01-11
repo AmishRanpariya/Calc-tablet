@@ -116,12 +116,12 @@ body {
 
   html,
   body {
-    font-size: 1.7vmin;
+    font-size: 1.5vmin;
   }
 
   .main-grid {
-    grid-template-columns: repeat(4, 12vmin);
-    grid-template-rows: minmax(24vmin, auto) repeat(5, 12vmin);
+    grid-template-columns: repeat(4, 10.8vmin);
+    grid-template-rows: minmax(21.6vmin, auto) repeat(5, 10.8vmin);
   }
 
 }
