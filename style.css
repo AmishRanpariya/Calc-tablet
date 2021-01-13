@@ -39,7 +39,7 @@ body {
   align-content: center;
   min-height: 100%;
   grid-template-columns: repeat(4, 18vmin);
-  grid-template-rows: minmax(30vmin, auto) repeat(5, 18vmin);
+  grid-template-rows: minmax(36vmin, auto) repeat(5, 18vmin);
   gap: 1.6rem;
   padding: 2.4rem;
   overflow: hidden;
@@ -61,7 +61,7 @@ body {
     inset -1.6rem -1.6rem 2rem #0002,
     inset 1.6rem 1.6rem 2rem #fff;
 
-
+transition: all 0.02s ease-in-out;
   /* to make text of button unselectable */
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -75,16 +75,30 @@ body {
 }
 
 .main-grid button:active {
-  background-color: rgba(255, 255, 255, .9);
-  font-size: 4.8rem;
+  /* background-color: rgba(255, 255, 255, .9); */
+               box-shadow: 1rem 1rem 2rem #0004,
+    inset -1.6rem -1.6rem 2rem #0002,
+    inset 1.6rem 1.6rem 2rem #fff !important;
+    transform: scale(0.91);
+    
+    
+        
+    
+    
+
+
 }
 
-.main-grid button:hover {
-  background-color: rgba(255, 255, 255, 0.9);
-}
+ .main-grid button:hover {
+       font-size: 3.8rem; 
+
+
+} 
 
 .horizontal-two {
   grid-column: span 2;
+
+
 }
 
 .vertical-two {
@@ -126,7 +140,7 @@ body {
 
   .main-grid {
     grid-template-columns: repeat(4, 8.8vmin);
-    grid-template-rows: minmax(18vmin, auto) repeat(5, 8.8vmin);
+    grid-template-rows: minmax(19vmin, auto) repeat(5, 8.8vmin);
   }
 
 }
