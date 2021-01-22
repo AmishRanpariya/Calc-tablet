@@ -1,0 +1,16 @@
+{
+  "name": "Calc Tablet",
+  "short_name": "Clac-tablet",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#333333",
+  "theme_color": "#666666",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/logo.svg",
+      "type": "image/svg",
+      "sizes": "128x128"
+    }
+  ]
+}
