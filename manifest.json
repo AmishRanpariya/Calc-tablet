@@ -3,8 +3,8 @@
   "short_name": "Calc-Tablet",
   "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#c1ecff",
-  "theme_color": "#444",
+  "background_color": "#c1e6ff",
+  "theme_color": "#c1e6ff",
   "orientation": "portrait-primary",
   "icons": [
     {
